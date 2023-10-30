@@ -25,7 +25,6 @@ public class Fdemo extends Frame implements ActionListener {
         int z6 = 0;
         int z7 = 0;
         int z8 = 0;
-
     protected void fdemo() {
             setLayout(null);
             setVisible(true);
