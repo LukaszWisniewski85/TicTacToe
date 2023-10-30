@@ -170,6 +170,16 @@ public class Fdemo extends Frame implements ActionListener {
                         infoBox(("Player O: " + playerOScore + "\r\n" + "Player X: " + playerXscore), player2Wins);
                         newGameButtonAction();
                     }
+                }if (b[6].getLabel().equals(b[7].getLabel()) && b[6].getLabel().equals(b[8].getLabel())) {
+                    if (b[6].getLabel().equals("O")) {
+                        playerOScore++;
+                        infoBox(("Player O: " + playerOScore + "\r\n" + "Player X: " + playerXscore), player1Wins);
+                        newGameButtonAction();
+                    } else if (b[6].getLabel().equals("X")) {
+                        playerXscore++;
+                        infoBox(("Player O: " + playerOScore + "\r\n" + "Player X: " + playerXscore), player2Wins);
+                        newGameButtonAction();
+                    }
                 }
                 if (b[0].getLabel().equals(b[3].getLabel()) && b[0].getLabel().equals(b[6].getLabel())) {
                     if (b[6].getLabel().equals("O")) {
